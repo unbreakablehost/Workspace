@@ -16,7 +16,9 @@ public class FlipkartNamePrice {
 		driver.findElement(By.cssSelector(".Pke_EE")).sendKeys("iPhone 15 Pro Max 1 TB");
 		
 //		driver.findElement(By.cssSelector("._2iLD__")).click();
-		driver.findElement(By.cssSelector("._2iLD__")).sendKeys(Keys.ENTER);		
+		driver.findElement(By.cssSelector("._2iLD__")).sendKeys(Keys.ENTER);
+		
+		
 		
 		
 
