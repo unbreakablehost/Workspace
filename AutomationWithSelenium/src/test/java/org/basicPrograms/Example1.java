@@ -1,6 +1,6 @@
 package org.basicPrograms;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Example1 {
 	
@@ -8,7 +8,7 @@ public class Example1 {
 
 		// For Selenium v4.6 and onwards
 
-		ChromeDriver obj1 = new ChromeDriver();
+//		ChromeDriver obj1 = new ChromeDriver();
 	}
 	
 //	public static void main(String args[]) {
