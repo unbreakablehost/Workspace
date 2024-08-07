@@ -1,0 +1,28 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.utilities.GenericUtility;
+
+public class FlipkartSearch {
+
+	public static void main(String[] args) {
+
+		GenericUtility gu = new GenericUtility();
+		
+		WebDriver driver = gu.startUp("ch", "https://www.flipkart.com/");
+		
+		// text field of search
+		WebElement searchTxtField = driver.findElement(By.cssSelector(".Pke_EE"));
+		
+		searchTxtField.sendKeys("iPhone 15 Pro Max 1 TB");
+		
+		WebElement searchBtn = driver.findElement(By.cssSelector("._2iLD__"));
+		searchBtn.click();
+		
+		
+
+	}
+
+}

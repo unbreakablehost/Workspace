@@ -1,0 +1,22 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.utilities.GenericUtility;
+
+public class Ex3 {
+
+	public static void main(String args[]) {
+
+		GenericUtility gu = new GenericUtility();
+		Ex3 obj = new Ex3();
+		obj.initBrowser("ff");
+	}
+
+
+}

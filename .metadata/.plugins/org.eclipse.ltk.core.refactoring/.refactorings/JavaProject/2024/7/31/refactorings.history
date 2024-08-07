@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.ProgramPractice.MixmatchApBqCr&apos; to &apos;PrintAlternateAlphabates&apos;&#x0D;&#x0A;- Original project: &apos;JavaProject&apos;&#x0D;&#x0A;- Original element: &apos;org.ProgramPractice.MixmatchApBqCr&apos;&#x0D;&#x0A;- Renamed element: &apos;org.ProgramPractice.PrintAlternateAlphabates&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MixmatchApBqCr&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.ProgramPractice{MixmatchApBqCr.java[MixmatchApBqCr" matchStrategy="1" name="PrintAlternateAlphabates" qualified="false" references="true" similarDeclarations="true" stamp="1722155571335" textual="false" version="1.0"/>
+</session>

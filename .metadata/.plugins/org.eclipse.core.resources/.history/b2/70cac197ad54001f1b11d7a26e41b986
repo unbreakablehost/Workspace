@@ -1,0 +1,35 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class FlipkartNamePrice {
+
+	public static void main(String[] args) {
+
+		GenericUtility gu = new GenericUtility();
+		
+		WebDriver driver = gu.startUp("ch", "https://www.flipkart.com/");
+
+		
+//		*******************************************************
+//		 Text field of search
+//		WebElement searchTxtField = driver.findElement(By.cssSelector(".Pke_EE"));
+//		searchTxtField.sendKeys("iPhone 15 Pro Max 1 TB");
+		
+//		 Search button
+//		WebElement searchBtn = driver.findElement(By.cssSelector("._2iLD__"));
+//		searchBtn.click();
+//		*******************************************************
+		
+		
+		driver.findElement(By.cssSelector(".Pke_EE")).sendKeys("iPhone 15 Pro Max 1 TB");
+		driver.findElement(By.cssSelector("._2iLD__")).click();
+		
+		
+		
+
+	}
+
+}

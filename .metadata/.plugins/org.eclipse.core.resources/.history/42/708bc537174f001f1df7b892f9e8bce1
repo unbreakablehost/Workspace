@@ -1,0 +1,12 @@
+package org.basicPrograms;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+
+		ChromeDriver obj = new ChromeDriver();
+
+
+	}
+
+}

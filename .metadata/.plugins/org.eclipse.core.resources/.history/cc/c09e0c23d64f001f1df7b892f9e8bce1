@@ -1,0 +1,17 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class LoginEx1 {
+
+	public static void main(String[] args) {
+
+		GenericUtility gu = new GenericUtility();
+		
+		WebDriver driver = gu.startUp("ch", "http://localhost:92/login.do");
+		
+
+	}
+
+}

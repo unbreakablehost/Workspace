@@ -1,0 +1,33 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class DashboardTitleURLEx {
+
+	public static void main(String[] args) {
+
+		GenericUtility gu = new GenericUtility();
+		WebDriver driver = gu.startUp("ch", "http://localhost:92/login.do");
+
+		driver.findElement(By.id("username")).sendKeys("admin");
+		driver.findElement(By.cssSelector(".textField.pwdfield")).sendKeys("manager");
+		driver.findElement(By.cssSelector("#loginButton>div")).click();
+//		driver.findElement(By.id("logoutLink")).click();
+		
+		String expTitle = "actiTIME - Enter Time-Track";
+		String actTitle = driver.getTitle();
+
+		String expURL = "http://localhost:92/user/submit_tt.do":
+		String dashboardURL = driver.getCurrentUrl();
+		
+		if(dashboardTitle.equals()) {
+			
+			
+		}
+		
+
+	}
+
+}

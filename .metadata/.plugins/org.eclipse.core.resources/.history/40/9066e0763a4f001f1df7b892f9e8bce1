@@ -1,0 +1,14 @@
+package org.basicPrograms;
+
+import org.utilities.GenericUtility;
+
+public class Ex3 {
+
+	public static void main(String args[]) {
+
+		GenericUtility gu = new GenericUtility();
+		gu.initBrowser("ff");
+	}
+
+
+}

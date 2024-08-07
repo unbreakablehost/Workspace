@@ -1,0 +1,20 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class GetTitle {
+
+	public static void main(String args[]) {
+
+		GenericUtility gu = new GenericUtility();
+
+		WebDriver driver = gu.startUp("ch", "https://vinodpawar.com");
+		
+		String currentURL = driver.getCurrentUrl();
+		
+		System.out.println(title);
+		
+
+	}
+}

@@ -1,0 +1,22 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.utilities.GenericUtility;
+
+public class LoginEx1 {
+
+	public static void main(String[] args) {
+
+		GenericUtility gu = new GenericUtility();		
+		WebDriver driver = gu.startUp("ch", "http://localhost:92/login.do");
+		
+		//Way 1
+		By obj = By.id("username");
+		
+		driver.findElement(obj);
+		
+
+	}
+
+}

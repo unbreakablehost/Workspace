@@ -1,0 +1,29 @@
+package org.basicPrograms;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Ex2 {
+	
+	public static void main(String args[]) {
+
+		Ex2 obj = new Ex2();
+		obj.initBrowser();
+		
+	}
+	
+	public void initBrowser() {
+		
+		ChromeDriver ChObj = new ChromeDriver();
+		
+		EdgeDriver EdObj = new EdgeDriver();
+		
+		FirefoxDriver FfObj = new FirefoxDriver();
+		
+		
+		
+	}
+	
+
+}
